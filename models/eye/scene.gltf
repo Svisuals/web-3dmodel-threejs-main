@@ -1796,6 +1796,22 @@
 			]
 		}
 	],
+	"materials":[
+		{
+			"doubleSided":true,
+			"name":"Material.002",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.21442058682441711,
+					0.8000156879425049,
+					0.051790863275527954,
+					1
+				],
+				"metallicFactor":0,
+				"roughnessFactor":0.4000000059604645
+			}
+		}
+	],
 	"meshes":[
 		{
 			"name":"Plane.001",
@@ -2313,7 +2329,8 @@
 						"NORMAL":135,
 						"TEXCOORD_0":136
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
@@ -3132,7 +3149,8 @@
 						"NORMAL":345,
 						"TEXCOORD_0":346
 					},
-					"indices":11
+					"indices":11,
+					"material":0
 				}
 			]
 		},
@@ -3171,7 +3189,8 @@
 						"NORMAL":354,
 						"TEXCOORD_0":355
 					},
-					"indices":11
+					"indices":11,
+					"material":0
 				}
 			]
 		},
